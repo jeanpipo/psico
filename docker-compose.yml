@@ -1,0 +1,7 @@
+version: '3'
+services:
+  fe:
+    image: icloudjeansosa/pisco
+    container_name: "pisco"
+    ports:
+      - 3000:3000
