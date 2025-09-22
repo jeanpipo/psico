@@ -2,7 +2,7 @@ version: '3'
 services:
   db:
     image: postgres:17.5
-    container_name: "jp-postgres"
+    container_name: "pisco-db"
     volumes:
       - db-data:/usr/local/share/postgresql/data
       - ./:/docker-entrypoint-initdb.d/:ro

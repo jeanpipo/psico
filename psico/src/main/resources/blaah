@@ -1,0 +1,33 @@
+estas diseñando un sistema backend para la gestion de turnos con el psicologo,
+el sistema debe permitir a los usuarios de tipo paciente:
+1. registrarse
+2. iniciar sesión
+3. reservar turnos
+4. cancelar turnos
+5. ver su historial de turnos.
+6. actualizar su perfil
+7. recuperar su contraseña
+8. ver disponibilidad de psicologos
+9. dejar reseñas y valoraciones de los psicologos
+10. recibir notificaciones por email y SMS sobre sus turnos
+11. integrarse con sistemas de pago para abonar las sesiones
+12. ver promociones y descuentos disponibles
+13. ver perfiles de psicologos disponibles
+14. filtrar psicologos por especialidad, pais y disponibilidad
+15. guardar psicologos favoritos
+
+estas diseñando un sistema backend para el manejo de turnos por parte del psicologo,
+el sistema debe permitir a los usuarios de tipo psicologos:
+1. registrarse
+2. iniciar sesión
+3. gestionar su disponibilidad
+4. ver y gestionar sus turnos
+5. ver el historial de turnos con sus pacientes
+6. actualizar su perfil profesional
+7. recibir notificaciones por email y SMS sobre sus turnos
+8. cancelar turnos
+9. ver reseñas y valoraciones de sus pacientes
+10. editar su perfil
+11. guardar anotaciones sobre sus pacientes
+12. ver estadísticas de sus sesiones
+

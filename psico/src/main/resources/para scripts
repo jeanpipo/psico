@@ -1,0 +1,69 @@
+<crear tablas>
+crea las tablas necesarias para la aplicacion:
+ - reseñas,
+ - psicologos_favoritos,
+ - turnos,
+ - consulta,
+ - usuario_paciente,
+ - usuario_psicologo,
+ - psicologo,
+ - paciente
+
+ ten en cuenta que tantos los pacientes como los psicologos tiene pueden tener un uso horario diferente.
+
+ las siguientes tablas de la base de datos podrar permitir la eliminacion logica:
+ - pacientes
+ - psicologos
+</crear tablas>
+
+<generar-data>
+genera scripts de base de datos con data de prueba suficiente
+para todas las tablas de la aplicacion.
+</generar-data>
+
+<genera-scripts-sql>
+
+genera los script de base de datos para las siguientes consultas:
+
+- genera un CRUD completo para todas las tablas de la base de datos.
+- genera script para consultar todos proximos turnos reservados de un paciente.
+- genera script para consultar los turnos pediente por confirmar por parte del psicologo.
+- genera script para consultar los turnos confirmados por parte del psicologo.
+- generar script para reversar un turno con un psicologo.
+- generar script para cancelar un turno con un psicologo.
+- generar script para registrar notas de un paciente por parte del psicologo.
+- generar script para consultar todas las notas de un paciente por parte del psicologo.
+- generar script para registrar la evaluacion de un psicologo por parte del paciente donde se
+ evaluara con una calificacion del 1 al 5 donde 1 es malo y 5 es muy bueno ademas podra escribir una reseña.
+- generar consulta para ver todos los pacientes atendidos por un psicologo.
+- generar consulta para ver todas las evaluaciones y reseñas de un psicologo.
+- general script para ver perfil de un psicologo debera incluir calificaciones y reseñas.
+- generar script para ver perfil de un paciente debera incluir sus notas con el psicologo y turnos.
+- generar script para ver todos los psicologos disponibles en un rango de fechas, horarios, pais y ciudad.
+
+
+genera datos de pruebas suficientes para todas las tablas de la aplicacion.
+</genera-scripts-sql>
+
+
+</codigo-java>
+genera  los enpoints y servicios necesarios para que la aplicacion pueda interactuar con la base de datos
+por medio de dbc template y genera los mappers necesarios para que la aplicacion pueda interactuar con la base de datos:
+
+- consultar todos los psicologos y permite filtrar por pais y ciudad
+- consultar perfil de un psicologo incluyendo calificaciones y reseñas
+- consultar perfil de un paciente incluyendo los piscologos marcados como favoritos
+- consultar historial de todas las consultas de un paciente
+- consultar historial de todas las consultas de un psicologo
+- reservar un turno con un psicologo
+- confirmar un turno por parte del psicologo
+- cancelar un turno por parte del paciente
+- registrar notas de un paciente por parte del psicologo
+- registrar la evaluacion de un psicologo por parte del paciente
+- consultar los proximos turnos de un paciente
+- consultar los turnos pendientes por confirmar por parte del psicologo
+- consultar los turnos confirmados por parte del psicologo
+- ver todos los pacientes atendidos por un psicologo
+- agregar o eliminar un psicologo de favoritos por parte del paciente
+
+</codigo-java>
